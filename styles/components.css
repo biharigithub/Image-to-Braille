@@ -1,0 +1,27 @@
+.dropzone {
+    border: 2px dashed #cbd5e1;
+    transition: all 0.3s ease;
+}
+
+.dropzone:hover {
+    border-color: #3b82f6;
+    background-color: #f8fafc;
+}
+
+.dropzone.active {
+    border-color: #3b82f6;
+    background-color: #eff6ff;
+}
+
+.loading-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
